@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>Classimax | Classified Marketplace Template</title>
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Agency HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Classified Marketplace Template v1.0">
+
+  <!-- favicon -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
+  <!-- 
+  Essential stylesheets
+  =====================================-->
+  <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="plugins/bootstrap/bootstrap-slider.css" rel="stylesheet">
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper">
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light navigation">
+					<a class="navbar-brand" href="index.html">
+						<img src="logo_sucelso2_resized_resized.png" alt="">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto main-nav ">
+							<li class="nav-item @@home">
+								<a class="nav-link" href="index.html">PAGINA INICIAL</a>
+							</li>
+							<li class="nav-item dropdown dropdown-slide @@dashboard">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!">DASHBOARD<span><i class="fa fa-angle-down"></i></span>
+								</a>
+
+								<!-- Dropdown list -->
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item @@dashboardPage" href="dashboard.html">DASHBOARD</a></li>								
+									<li class="dropdown dropdown-submenu dropright">
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown dropdown-slide @@pages">
+								<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Pages <span><i class="fa fa-angle-down"></i></span>
+								</a>
+								<!-- Dropdown list -->
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item @@about" href="about-us.html">SOBRE NÓS</a></li>
+									<li><a class="dropdown-item @@contact" href="contact-us.html">ENTRE EM CONTATO</a></li>
+									<li><a class="dropdown-item @@profile" href="user-profile.html">PERFIL</a></li>
+									<li><a class="dropdown-item @@terms" href="terms-condition.html">TERMOS E CONDIÇÕES</a></li>
+                  <li><a class="dropdown-item @@category" href="category.html">ULTIMO CURSO</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown dropdown-slide active">
+								<a class="nav-link dropdown-toggle" href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									LiSTA <span><i class="fa fa-angle-down"></i></span>
+								</a>
+								<!-- Dropdown list -->
+								<ul class="dropdown-menu">
+
+									<li><a class="dropdown-item active" href="ad-list-view.html">LISTA DE CURSOS</a></li>
+									
+									<li class="dropdown dropdown-submenu dropleft">
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto mt-10">
+							<li class="nav-item">
+							</li>
+              <a class="nav-link text-white add-button" href="https://discord.gg/dFcdJXPa"><img src="discord-logo-discord-icon-transparent-free-png (1)_resized.webp"></i>DISCORD</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="page-search">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Advance Search -->
+				<div class="advance-search nice-select-white">
+					<form>
+						<div class="form-row align-items-center">
+							<div class="form-group col-xl-4 col-lg-3 col-md-6">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputtext4" placeholder="O QUE ESTÁ PROCURANDO?">
+							</div>
+							<div class="form-group col-lg-3 col-md-6">
+								<select class="w-100 form-control my-2 my-lg-0">
+									<option>CATEGORIA</option>
+									<option value="1">MAIS PROCURADOS</option>
+									<option value="2">MENOR PREÇO</option>
+									<option value="4">MAIOR PREÇO</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-3 col-md-6">
+								<input type="text" class="form-control my-2 my-lg-0" id="inputLocation4" placeholder="LOCALIZAÇÃO">
+							</div>
+							<div class="form-group col-xl-2 col-lg-3 col-md-6">
+
+								<button type="submit" class="btn btn-primary active w-100">PROCURAR AGORA</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="search-result bg-gray">
+					<h2>RESULTADOS</h2>
+					<p>123 RESULTADOS EM SETEMBRO 2023</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				<div class="category-sidebar">
+					<div class="widget category-list">
+	<h4 class="widget-header">TOP CATEGORIAS</h4>
+	<ul class="category-list">
+		<li><a href="category.html">IA <span>93</span></a></li>
+		<li><a href="category.html">MACHINE LEARNING <span>233</span></a></li>
+		<li><a href="category.html">LOGICA PROGRAMAÇÃO  <span>183</span></a></li>
+		<li><a href="category.html">CALCULO <span>343</span></a></li>
+	</ul>
+</div>
+
+<div class="widget category-list">
+	<h4 class="widget-header">TODAS CATEGORIAS</h4>
+	<ul class="category-list">
+		<li><a href="category.html">PYTHON <span>93</span></a></li>
+		<li><a href="category.html">JAVA <span>233</span></a></li>
+		<li><a href="category.html">C# <span>183</span></a></li>
+		<li><a href="category.html">FRONT-END <span>120</span></a></li>
+		<li><a href="category.html">CALCULO DE UMA VARIAVEL <span>40</span></a></li>
+		<li><a href="category.html">PROGRAMAÇÃO ORIENTADA A OBJETO <span>81</span></a></li>
+	</ul>
+</div>
+
+<div class="widget filter">
+	<h4 class="widget-header">MOSTRAR PRODUTOS</h4>
+	<select>
+		<option>POPULARIDADE</option>
+		<option value="1">MAIS PROCURADOS</option>
+		<option value="2">MENOR PREÇO</option>
+		<option value="4">MAIOR PREÇO</option>
+	</select>
+</div>
+
+<div class="widget price-range w-100">
+	<h4 class="widget-header">MÉDIA DE PREÇO</h4>
+	<div class="block">
+						<input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
+						data-slider-value="[0,5000]">
+				<div class="d-flex justify-content-between mt-2">
+						<span class="value">$10 - $5000</span>
+				</div>
+	</div>
+</div>
+
+<div class="widget product-shorting">
+	<h4 class="widget-header">ESPECIFICAÇÕES</h4>
+	<div class="form-check">
+	  <label class="form-check-label">
+	    <input class="form-check-input" type="checkbox" value="">
+	    LANÇAMENTOS
+	  </label>
+	</div>
+	<div class="form-check">
+	  <label class="form-check-label">
+	    <input class="form-check-input" type="checkbox" value="">
+	    MAIS PROCURADOS
+	  </label>
+	</div>
+	<div class="form-check">
+	  <label class="form-check-label">
+	    <input class="form-check-input" type="checkbox" value="">
+	    POUCA DURAÇÃO
+	  </label>
+	</div>
+	<div class="form-check">
+	  <label class="form-check-label">
+	    <input class="form-check-input" type="checkbox" value="">
+	    MAIOR DURAÇÃO
+	  </label>
+	</div>
+</div>
+
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-8">
+				<div class="category-search-filter">
+					<div class="row">
+						<div class="col-md-6 text-center text-md-left">
+							<strong>CATEGORIA</strong>
+							<select>
+								<option>Most Recent</option>
+								<option value="1">MAIS POPULAR</option>
+								<option value="2">MENOR PREÇO</option>
+								<option value="4">MAIOR PREÇO</option>
+							</select>
+						</div>
+						<div class="col-md-6 text-center text-md-right mt-2 mt-md-0">
+							<div class="view">
+								<strong>Views</strong>
+								<ul class="list-inline view-switcher">
+									<li class="list-inline-item">
+										<a href="category.html"><i class="fa fa-th-large"></i></a>
+									</li>
+									<li class="list-inline-item">
+										<a href="category.html" class="text-info"><i class="fa fa-reorder"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ad listing list  -->
+				<div class="ad-listing-list mt-20">
+    <div class="row p-lg-3 p-sm-5 p-4">
+        <div class="col-lg-4 align-self-center">
+            <a href="single.html">
+                <img src="download.jpeg" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="ad-listing-content">
+                        <div>
+                            <a href="single.html" class="font-weight-bold">CURSO DE IA</a>
+                        </div>
+                        <ul class="list-inline mt-2 mb-3">
+                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i>IA</a></li>
+                            <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26 DE AGOSTO</a></li>
+                        </ul>
+                        <p class="pr-5">APRENDA A TRABALHAR COM IA E SUAS FUNCIONALIDADES</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="product-ratings float-lg-right pb-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<div class="ad-listing-list mt-20">
+    <div class="row p-lg-3 p-sm-5 p-4">
+        <div class="col-lg-4 align-self-center">
+            <a href="single.html">
+                <img src="hqdefault.jpg" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="ad-listing-content">
+                        <div>
+                            <a href="single.html" class="font-weight-bold">CURSO DE NARRATIVA DE RPG</a>
+                        </div>
+                        <ul class="list-inline mt-2 mb-3">
+                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i>RPG</a></li>
+                            <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>25 DE JUNHO</a></li>
+                        </ul>
+                        <p class="pr-5">APRENDA A CRIAR AS MELHORES NARRATIVAS PARA O SEU RPG DE MESA</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="product-ratings float-lg-right pb-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<div class="ad-listing-list mt-20">
+    <div class="row p-lg-3 p-sm-5 p-4">
+        <div class="col-lg-4 align-self-center">
+            <a href="single.html">
+                <img src="Machine-Learning.jpeg" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="ad-listing-content">
+                        <div>
+                            <a href="single.html" class="font-weight-bold">CURSO DE MACHINE LEARNING</a>
+                        </div>
+                        <ul class="list-inline mt-2 mb-3">
+                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i>IA</a></li>
+                            <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>24 DE JUNHO</a></li>
+                        </ul>
+                        <p class="pr-5">APRENDA A TRABALHAR COM MACHINE LEARNING E AUTOMATIZAR DIVERSAS TAREFAS</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="product-ratings float-lg-right pb-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<div class="ad-listing-list mt-20">
+    <div class="row p-lg-3 p-sm-5 p-4">
+        <div class="col-lg-4 align-self-center">
+            <a href="single.html">
+                <img src="MODELAGEM.jpeg" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="ad-listing-content">
+                        <div>
+                            <a href="single.html" class="font-weight-bold">CURSO DE MODELAGEM 3D</a>
+                        </div>
+                        <ul class="list-inline mt-2 mb-3">
+                            <li class="list-inline-item"><a href="category.html"> <i class="fa fa-folder-open-o"></i>JOGOS</a></li>
+                            <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>20 DE JULHO 2023</a></li>
+                        </ul>
+                        <p class="pr-5">APRENDA A MODELAR PERSONAGENS PARA JOGOS 3D</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="product-ratings float-lg-right pb-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<!-- ad listing list  -->
+
+				<!-- pagination -->
+				<div class="pagination justify-content-center py-4">
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<li class="page-item">
+								<a class="page-link" href="ad-list-view.html" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+								</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="ad-list-view.html">1</a></li>
+							<li class="page-item active"><a class="page-link" href="ad-list-view.html">2</a></li>
+							<li class="page-item"><a class="page-link" href="ad-list-view.html">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="ad-list-view.html" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+									<span class="sr-only">Next</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- pagination -->
+			</div>
+		</div>
+	</div>
+</section>
+
+Essential Scripts
+=====================================
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/popper.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/bootstrap/bootstrap-slider.js"></script>
+<script src="plugins/tether/js/tether.min.js"></script>
+<script src="plugins/raty/jquery.raty-fa.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="plugins/google-map/map.js" defer></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

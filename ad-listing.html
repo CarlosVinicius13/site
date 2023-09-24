@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>Classimax | Classified Marketplace Template</title>
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Agency HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Classified Marketplace Template v1.0">
+
+  <!-- favicon -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
+  <!-- 
+  Essential stylesheets
+  =====================================-->
+  <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="plugins/bootstrap/bootstrap-slider.css" rel="stylesheet">
+  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper">
+
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light navigation">
+					<a class="navbar-brand" href="index.html">
+						<img src="logo_sucelso2_resized_resized.png" alt="">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto main-nav ">
+							<li class="nav-item @@home">
+								<a class="nav-link" href="index.html">PAGINA INICIAL</a>
+							</li>
+							<li class="nav-item dropdown dropdown-slide @@dashboard">
+								</a>
+									</li>
+								</ul>
+							</li>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-auto mt-10">
+							<li class="nav-item">
+							<li class="nav-item">
+								<a class="nav-link text-white add-button" href="https://discord.gg/dFcdJXPa"><img src="discord-logo-discord-icon-transparent-free-png (1)_resized.webp"></i>DISCORD</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="advt-post bg-gray py-5">
+  <div class="container">
+    <form action="#!" method="POST">
+      <!-- Post Your ad start -->
+      <fieldset class="border border-gary px-3 px-md-4 py-4 mb-5">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Crie seu curso</h3>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">Título do Curso:</h6>
+            <input type="text" class="form-control bg-white" placeholder="Adicione o título aqui" required>
+            <h6 class="font-weight-bold pt-4 pb-1">Tipo do curso:</h6>
+            <div class="row px-3">
+              <div class="col-lg-4 mr-lg-4 my-2 pt-2 pb-1 rounded bg-white">
+                <input type="radio" name="itemName" value="personal" id="personal" required>
+                <label for="personal" class="py-2">Educacional</label>
+              </div>
+            </div>
+            <h6 class="font-weight-bold pt-4 pb-1">Descrição do curso:</h6>
+            <textarea name="" id="" class="form-control bg-white" rows="7"
+              placeholder="Escreva os detalhes do seu curso" required></textarea>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">Selecione a categoria do curso:</h6>
+            <select name="" class="form-control w-100 bg-white" id="inputGroupSelect">
+              <option value="1">Selecione a categoria</option>
+              <option value="2">Estrutura de dados</option>
+              <option value="3">Ciência de dados</option>
+              <option value="4">Sistemas Operacionais</option>
+              <option value="5">Dev FullStack</option>
+              <option value="6">Lógica de programação</option>
+              <option value="7">Inteligencia Artificial</option>
+              <option value="8">Hardware</option>
+              <option value="9">Programação Orientada a Objetos</option>
+              <option value="10">Cálculo Diferencial</option>
+            </select>
+            <div class="price">
+              <h6 class="font-weight-bold pt-4 pb-1">Preço do curso (R$):</h6>
+              <div class="row px-3">
+                <div class="col-lg-4 rounded my-2 px-0">
+                  <input type="text" name="price" class="form-control bg-white" placeholder="Preço" id="price">
+                </div>
+              </div>
+            </div>
+            <div class="choose-file text-center my-4 py-4 rounded bg-white">
+              <label for="file-upload">
+                <span class="d-block font-weight-bold text-dark">Arraste a thumbnail do seu curso</span>
+                <span class="d-block">ou</span>
+                <span class="d-block btn bg-primary text-white my-3 select-files">Selecione os arquivos</span>
+                <span class="d-block">Tamanho máximo para upload: 500 KB</span>
+                <input type="file" class="form-control-file d-none" id="file-upload" name="file">
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <!-- Post Your ad end -->
+
+      <!-- seller-information start -->
+      <fieldset class="border px-3 px-md-4 py-4 my-5 seller-information bg-gray">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Informações do professor  </h3>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">Nome:</h6>
+            <input type="text" placeholder="Nome" class="form-control bg-white" required>
+            <h6 class="font-weight-bold pt-4 pb-1">Email:</h6>
+            <input type="email" placeholder="nome@seuemail.com" class="form-control bg-white" required>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">RG:</h6>
+            <input type="text" placeholder="RPG" class="form-control bg-white" required>
+            <h6 class="font-weight-bold pt-4 pb-1">CEP:</h6>
+            <input type="text" placeholder="CEP" class="form-control bg-white" required>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">Data de nascimento:</h6>
+            <input type="date" placeholder="dd/mm/aa" class="form-control bg-white" required>
+            <h6 class="font-weight-bold pt-4 pb-1">CPF:</h6>
+            <input type="text" placeholder="CPF" class="form-control bg-white" required>
+          </div>
+          <div class="col-lg-6">
+            <h6 class="font-weight-bold pt-4 pb-1">Telefone:</h6>
+            <input type="tel" placeholder="Telefone" class="form-control bg-white" required>
+            <h6 class="font-weight-bold pt-4 pb-1">UF:</h6>
+            <input type="text" placeholder="UF" class="form-control bg-white" required>
+          </div>
+        </div>
+      </fieldset>
+      <!-- seller-information end-->
+
+      <!-- ad-feature start -->
+
+      <!-- submit button -->
+      <div class="checkbox d-inline-flex">
+        <input type="checkbox" id="terms-&-condition" class="mt-1">
+        <label for="terms-&-condition" class="ml-2">Se marcar a caixa você concorda com os nossos
+          <span> <a class="text-success" href="terms-condition.html">Termos & Condições</a></span>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary d-block mt-2">Poste seu curso</button>
+    </form>
+  </div>
+</section>
+
+<!-- 
+Essential Scripts
+=====================================-->
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/popper.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/bootstrap/bootstrap-slider.js"></script>
+<script src="plugins/tether/js/tether.min.js"></script>
+<script src="plugins/raty/jquery.raty-fa.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="plugins/google-map/map.js" defer></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
